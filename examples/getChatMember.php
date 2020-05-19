@@ -12,7 +12,7 @@ error_reporting(0);
 header("content-type: application/json; charset: UTF-8");
 $token			= "YOUR BOT TOKEN";
 $method			= "getChatMember";
-$chat_id		= "CHAT/GROUP/CHANNEL ID";
+$chat_id		= "CHAT/GROUP/SUPERGROUP/CHANNEL ID";
 $user_id		= "USER/BOT ID";
 $parameters		= "chat_id=".$chat_id."&user_id=".$user_id;
 
